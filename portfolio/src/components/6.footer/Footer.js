@@ -5,6 +5,8 @@ import { FaHeading,FaPhoneAlt } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi"; 
 import { TbWorld } from "react-icons/tb"; 
 
+
+
 const Footer = () => {
     return (
         <div className='footer-box'>
@@ -31,9 +33,8 @@ const Footer = () => {
                     <span><FaHeading  size={50} color='blue'/></span>
                     <div><p><BiCopyright size={18} color='red'/> Copyright 2022. meethamdihun.com</p></div>
                     </div>
-            </div>
+            </div>  
         </div>
     );
 }
-
 export default Footer;

@@ -33,13 +33,20 @@ span{
     align-items: center;
     justify-content: center;
 }
-
+p{
+    padding: 2px;
+}
 
 @media screen and (max-width:600px) {
     #footer{
         display: flex;
         flex-direction: column;
         grid-gap: 20px;
+    }
+    .footer-link h3{
+        padding:10px;
+        margin-left: -50px;
+        color: blue;
     }
     span{
         display: flex;

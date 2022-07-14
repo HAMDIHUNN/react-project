@@ -37,14 +37,17 @@ class Navbar extends Component{
     render(){
         return(
             <div className='cover'>
+
+
+
                     <nav className='NavbarItems'>
                     <h1
                         className='navbar-logo'> Hamdihun 
                     </h1>
-                    <div className="menu-icon" onClick={this.handleClick}>
+                    <div className="menu-icon" onClick={this.handleClick} >
                         <i className={this.state
                         .clicked ?'fas fa-times' :
-                        'fas fa-bars'}></i> 
+                        'fas fa-bars'} ></i> 
                     </div>                          
                     <ul  className= {this.state
                     .clicked ? 'nav-menu active':
@@ -62,6 +65,8 @@ class Navbar extends Component{
                         </ul>
                 </nav>
             
+
+
             <div className='header-summary'>
                 <div className='right'>
                     <div><h1>WEB DEVELOPER</h1></div>
