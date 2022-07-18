@@ -37,9 +37,6 @@ class Navbar extends Component{
     render(){
         return(
             <div className='cover'>
-
-
-
                     <nav className='NavbarItems'>
                     <h1
                         className='navbar-logo'> Hamdihun 
